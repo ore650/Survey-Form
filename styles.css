@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    height: 100;
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-color: #116c31;
+    color: white;
+  }
+  h1, p {
+    text-align: center;
+    margin: 1em auto;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  fieldset {
+    border: none;
+    margin: 2rem 0;
+    border-bottom: 2px solid #ffffff;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  input[type="submit"] {
+    background-color: #71F53E;
+    border-color: #ffffff;
+    height: 2em;
+    font-size: 1.1rem;
+  }
